@@ -1,0 +1,53 @@
+body {
+    background-image: url(man-2604149.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.left{
+    height: 86px;
+    position: absolute;
+    align-items: center;
+    left: 350px;
+}
+.right{
+display: inline-block;
+position: absolute;
+right: 0px;
+margin-right: 90px;
+top: 100px;
+}
+.right img{
+    height: 90px;
+    width:-webkit-fill-available;;
+}
+.right div.logo{
+    font-size: 32px;
+    font-family:fantasy;
+}
+.quote{
+
+    position: absolute;
+    top: 470px;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    margin-left: 390px;
+    border-radius:24px;
+    background:rgba(255,255,255,.6);
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 23px;
+}
+nav{
+    margin-top: 30px;
+    font-size: 34px;
+    height: 45px;
+}
+nav a:hover,nav a.current{
+    background-color: rgb(218, 11, 11);
+    border-radius: 10px;
+}
