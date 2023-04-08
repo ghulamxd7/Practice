@@ -1,0 +1,47 @@
+body {
+    background-image: url(fitness-1882721.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.amimor{
+    height: 52vh;
+    width: 55vh;
+    justify-content: center;
+    position: absolute;
+    left: 120px;
+    font-size: 23px;
+    font-weight: bolder;
+    color:black;
+    bottom: 150px;
+    background:rgba(255,255,255,.6);
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px 7px white;
+}
+p{
+    display: inline-block;
+    font-size: 32px;
+    border-radius: 2px;
+    color: whitesmoke;
+}
+.header{
+    padding-left: 10px;
+    height: 23vh;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right:-50px;
+    margin-right: 90px;
+    top: 100px;
+    }
+    .right img{
+        height: 90px;
+        width:-webkit-fill-available;;
+        border: 4px solid white;
+    }
+    .right div.logo{
+        font-size: 32px;
+        font-family:fantasy;
+        color: rgb(236, 228, 228);
+    }
